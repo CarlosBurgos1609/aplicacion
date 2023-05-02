@@ -14,14 +14,14 @@
 </head>
 
 <body >
-    <form>
+    <form  method="post" action="registrar.php" class="container">
         <div class="mb-3">
             <label for="identificador" class="form-label" >identificador</label>
-            <input type="text" class="form-control" id="identificador" aria-describedby="emailHelp"  >
+            <input type="text" class="form-control" id="identificador" name="identificador"  >
         </div>
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="password" class="form-control" id="nombre" name="Nombre">
+            <input type="text" class="form-control" id="nombre" name="Nombre">
         </div>
         <div class="mb-3">
             <label for="detalle" class="form-label">detalle</label>
